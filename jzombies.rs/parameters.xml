@@ -6,6 +6,7 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
+<<<<<<< HEAD
 				<parameter name="human_count" displayName="Human Count" type="int" 
 						defaultValue="100" 
 						isReadOnly="false" 
@@ -18,6 +19,8 @@
 						converter="repast.simphony.parameter.StringConverterFactory$IntConverter"
 									
 		/>
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 		</parameters>
 
 

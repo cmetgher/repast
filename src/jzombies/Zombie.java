@@ -53,7 +53,10 @@ public class Zombie {
 			}
 		}
 		moveTowards(pointWithMostHumans);
+<<<<<<< HEAD
 		infect();
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 
 	}
 
@@ -75,6 +78,7 @@ public class Zombie {
 
 	}
 
+<<<<<<< HEAD
 	public void infect() {
 		GridPoint gp = grid.getLocation(this);
 		List<Object> humans = new ArrayList<Object>();
@@ -102,4 +106,6 @@ public class Zombie {
 		}
 
 	}
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 }

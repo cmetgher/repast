@@ -22,10 +22,13 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 
 	@Override
 	public Context build(Context<Object> context) {
+<<<<<<< HEAD
 
 		NetworkBuilder<Object> netBuilder = new NetworkBuilder<Object>(
 				"infection network", context, true);
 		netBuilder.buildNetwork();
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 		context.setId("jzombies");
 		ContinuousSpaceFactory spaceFactory = ContinuousSpaceFactoryFinder
 				.createContinuousSpaceFactory(null);
@@ -39,14 +42,22 @@ public class JZombiesBuilder implements ContextBuilder<Object> {
 				new GridBuilderParameters<Object>(new WrapAroundBorders(),
 						new SimpleGridAdder<Object>(), true, 50, 50));
 
+<<<<<<< HEAD
 		Parameters params = RunEnvironment.getInstance().getParameters();
 		int zombieCount = (Integer) params.getValue("zombie_count");
 		int humanCount = (Integer) params.getValue("human_count");
+=======
+		int zombieCount = 5;
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 		for (int i = 0; i < zombieCount; i++) {
 			context.add(new Zombie(space, grid));
 		}
 
+<<<<<<< HEAD
 		//int humanCount = 100;
+=======
+		int humanCount = 100;
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 		for (int i = 0; i < humanCount; i++) {
 			int energy = RandomHelper.nextIntFromTo(4, 10);
 			context.add(new Human(space, grid, energy));

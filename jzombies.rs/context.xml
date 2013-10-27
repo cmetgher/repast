@@ -3,5 +3,8 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="http://repast.org/scenario/context">
 <projection type ="continuous space" id="space"/>
 <projection type ="grid" id="grid"/>
+<<<<<<< HEAD
 <projection type ="network" id="infection network"/>
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
 </context>

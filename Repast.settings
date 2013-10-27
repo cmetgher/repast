@@ -6,16 +6,23 @@
       <threshold>8</threshold>
     </default>
     <int>3</int>
+<<<<<<< HEAD
     <int>5</int>
     <string>Spreadsheet.licenseAccepted</string>
     <boolean>true</boolean>
+=======
+    <int>3</int>
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
     <string>SettingsRegistryId</string>
     <string>Repast.registry</string>
     <string>LastLoadedScenario</string>
     <string>/Users/cmetgher/Documents/workspace/jzombies/jzombies.rs</string>
     <string>SettingsFileName</string>
     <string>Repast.settings</string>
+<<<<<<< HEAD
     <string>Spreadsheet.home</string>
     <string>/Applications/Microsoft Office 2008/Microsoft Excel.app/</string>
+=======
+>>>>>>> 93d78c50a091feee5be2a738625bcf4b1ced1d19
   </hashtable>
 </simphony.settings.SettingsRegistry>
