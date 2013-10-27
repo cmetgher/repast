@@ -1,0 +1,2 @@
+"tick","# of Humans","# of Zombies"
+0.0,100,5
